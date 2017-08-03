@@ -1,5 +1,4 @@
 ﻿using Hangfire;
-using System;
 using System.Web.Mvc;
 
 namespace HangfireSample01.Web.Controllers
@@ -9,7 +8,7 @@ namespace HangfireSample01.Web.Controllers
     public ActionResult Index()
     {
       // Hangfireでjobをキューに登録
-      BackgroundJob.Enqueue(() => new MyJobsLib.CustomJob().Execute("Job Executed."));
+      BackgroundJob.Enqueue(() => new MyJobsLib.CustomJob().Execute("Job Executed.")); // ★ここを変更
       return View();
     }
 
