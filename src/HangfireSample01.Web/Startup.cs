@@ -14,7 +14,6 @@ namespace HangfireSample01.Web
       GlobalConfiguration.Configuration.UseSqlServerStorage(constr);
 
       app.UseHangfireDashboard();
-      app.UseHangfireServer();
     }
   }
 }

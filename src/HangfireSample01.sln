@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangfireSample01.Web", "HangfireSample01.Web\HangfireSample01.Web.csproj", "{D87E67AF-A1AC-4C68-89E0-C20F62E56BD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJobsLib", "MyJobsLib\MyJobsLib.csproj", "{EE716D6C-2562-4CFB-BB6A-6080F03F217F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangfireSample01.ServerConsole", "HangfireSample01.ServerConsole\HangfireSample01.ServerConsole.csproj", "{626A23C5-675B-4D1D-81F5-C3BEE6624D3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D87E67AF-A1AC-4C68-89E0-C20F62E56BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D87E67AF-A1AC-4C68-89E0-C20F62E56BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D87E67AF-A1AC-4C68-89E0-C20F62E56BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE716D6C-2562-4CFB-BB6A-6080F03F217F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE716D6C-2562-4CFB-BB6A-6080F03F217F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE716D6C-2562-4CFB-BB6A-6080F03F217F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE716D6C-2562-4CFB-BB6A-6080F03F217F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626A23C5-675B-4D1D-81F5-C3BEE6624D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626A23C5-675B-4D1D-81F5-C3BEE6624D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626A23C5-675B-4D1D-81F5-C3BEE6624D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626A23C5-675B-4D1D-81F5-C3BEE6624D3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
